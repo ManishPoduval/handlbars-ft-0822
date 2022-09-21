@@ -1,0 +1,8 @@
+
+    <h1>Instructors are:</h1>
+    {{#each instructors}}
+        {{> info this}}
+    {{/each}}
+    {{#if error}}
+        <p>{{error}}</p>
+    {{/if}}  
